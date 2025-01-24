@@ -104,7 +104,7 @@ main {
   transform: scale(1.1);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-footer {
+.footer {
   background-color: #107060;
   color: rgb(255, 255, 255);
   text-align: center;
@@ -126,4 +126,17 @@ footer {
   a {
     margin: 2px;
   }
+}
+.p-about {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 10px;
+}
+.header-about {
+  background: linear-gradient(to right, #1cbba0, #107060, #1cbba0);
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+  border-top: 1px solid #fff;
 }
